@@ -8,6 +8,6 @@ public class DeliveryMan : Person
 
     public void DeliverOrder(Order order, Bill bill)
     {
-        
+        //truc
     }
 }

@@ -8,14 +8,15 @@ public class Customer : Person
         this.Phone = Phone;
     }
 
+    //not async because only one customer can get the Clerk at a time
     public void callRestaurant(){
         //calling restaurant
-        //
     }
 
-    public async void BrowseMenu()
+    //Async because customers can browse the menu at the same time
+    public async Order BrowseMenu()
     {
         //choose items in menu
-        //return order ?
+        //return the order of the customer order
     }
 }

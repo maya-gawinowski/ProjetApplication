@@ -8,6 +8,8 @@ public class DeliveryMan : Person
 
     public void DeliverOrder(Order order, Bill bill)
     {
-        
+        //Deliver one order at a time
+        //once the order has been 
+        //tell the clerk to update the status of the order
     }
 }

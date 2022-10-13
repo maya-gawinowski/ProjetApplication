@@ -7,4 +7,8 @@ public class Pizza : Item
         this.size = size;
         this.pizza = pizza;
     }
+
+    public EnumTypePizza getPizzaType(){
+        return this.pizza;
+    }
 }

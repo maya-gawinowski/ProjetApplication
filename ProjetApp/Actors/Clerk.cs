@@ -5,16 +5,28 @@ public class Clerk : Person
 
     }
 
-    public void Welcome()
+    public async void Welcome(Customer c)
     {
         //Greets customers (one at a time)
         //Give them the menu
+        Console.WriteLine(linefiller);
+        Console.WriteLine("Welcome customer "+c.getFullName());
+        Console.WriteLine("You can take a few minutes to choose your order. Here is the menu");
+        await Task.Run(() => c.BrowseMenu());
+        TakeOrder(c);
     }
 
-    public void TakeOrder(Order order)
+    public async void TakeOrder(Customer c)
     {
         //Receives the order from the customer (one at a time)
         //send Pizzas to Cook 
+        Console.WriteLine(linefiller);
+        Console.WriteLine("Welcome back customer "+c.getFullName());
+        Console.WriteLine("Tell me your order");
+        //Console.WriteLine(c.getOrder());
+        Order order = c.getOrder();
+        Console.WriteLine("Clerk : Thank you I will send your order to the kitchen");
+        await Task.Run(() => order.getCook().ReceiveOrder(order));
     } 
 
     public void GiveOrderToDelivery()

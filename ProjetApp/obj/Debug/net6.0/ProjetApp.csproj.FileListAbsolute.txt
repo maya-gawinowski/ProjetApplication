@@ -1,0 +1,15 @@
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/Debug/net6.0/ProjetApp.csproj.AssemblyReference.cache
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/Debug/net6.0/ProjetApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/Debug/net6.0/ProjetApp.AssemblyInfoInputs.cache
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/Debug/net6.0/ProjetApp.AssemblyInfo.cs
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/Debug/net6.0/ProjetApp.csproj.CoreCompileInputs.cache
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/bin/Debug/net6.0/ProjetApp
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/bin/Debug/net6.0/ProjetApp.deps.json
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/bin/Debug/net6.0/ProjetApp.runtimeconfig.json
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/bin/Debug/net6.0/ProjetApp.dll
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/bin/Debug/net6.0/ProjetApp.pdb
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/Debug/net6.0/ProjetApp.dll
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/Debug/net6.0/refint/ProjetApp.dll
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/Debug/net6.0/ProjetApp.pdb
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/Debug/net6.0/ProjetApp.genruntimeconfig.cache
+/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/Debug/net6.0/ref/ProjetApp.dll

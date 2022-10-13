@@ -8,24 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Camille\\.nuget\\packages\\": {}
+    "/Users/mayajane/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Camille\\Documents\\EFREI-\\S7\\IDS-A\\Project_Git\\ProjetApplication\\ProjetApp\\ProjetApp.csproj",
+      "projectUniqueName": "/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/ProjetApp.csproj",
       "projectName": "ProjetApp",
-      "projectPath": "C:\\Users\\Camille\\Documents\\EFREI-\\S7\\IDS-A\\Project_Git\\ProjetApplication\\ProjetApp\\ProjetApp.csproj",
-      "packagesPath": "C:\\Users\\Camille\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Camille\\Documents\\EFREI-\\S7\\IDS-A\\Project_Git\\ProjetApplication\\ProjetApp\\obj\\",
+      "projectPath": "/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/ProjetApp.csproj",
+      "packagesPath": "/Users/mayajane/.nuget/packages/",
+      "outputPath": "/Users/mayajane/Documents/Projets Perso/ProjetApplication/ProjetApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Camille\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/mayajane/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

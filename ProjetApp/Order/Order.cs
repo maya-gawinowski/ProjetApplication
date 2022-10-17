@@ -26,8 +26,20 @@ public class Order
         return this.cook;
     }
 
+    public Clerk getClerk(){
+        return this.clerk;
+    }
+
     public int getNumber(){
         return this.NbOrder;
+    }
+
+    public double getFullPrice(){
+        double total=0;
+        foreach(Item item in items){
+            total+=item.getPrice();
+        }
+        return total;
     }
 
     public List<Item> getItems(){

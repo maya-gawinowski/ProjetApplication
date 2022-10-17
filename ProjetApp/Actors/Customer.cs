@@ -17,20 +17,18 @@ public class Customer : Person
     }
 
     //Async because customers can browse the menu at the same time
-    public void BrowseMenu()
+    public void BrowseMenu(Clerk c)
     {
         //choose items in menu
         //return the order of the customer order
         chooseOrder();
-        //await Task.Run(() => chooseOrder());
     }
 
     public void chooseOrder(){
-        Console.WriteLine(linefiller);
         Console.WriteLine("Customer : "+getFullName());
-        Console.WriteLine("Thank you I will choose");
+        Console.WriteLine("Thank you I will choose\n");
         Thread.Sleep(3000);
-        Console.WriteLine("I have made my choice");
+        Console.WriteLine("Customer : "+getFullName()+" calling back !\n");
     }
 
     public void setOrder(Order order){

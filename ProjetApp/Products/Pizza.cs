@@ -11,4 +11,8 @@ public class Pizza : Item
     public EnumTypePizza getPizzaType(){
         return this.pizza;
     }
+
+    public int getSize(){
+        return this.size;
+    }
 }

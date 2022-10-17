@@ -5,4 +5,8 @@ public class Item
     {
         this.price = price;
     }
+
+    public double getPrice(){
+        return this.price;
+    }
 }

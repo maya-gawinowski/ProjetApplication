@@ -3,18 +3,21 @@
     public static List<Order> orders = new List<Order>();
     private static Clerk clerk = new Clerk(1,"Truc","Truc");
     private static Cook cook = new Cook(1,"Cook","Cook");
-    private static DeliveryMan deliver = new DeliveryMan(1,"New","Deli","0600000000"); 
+    public static DeliveryMan deliver = new DeliveryMan(1,"New","Deli","0600000000"); 
     public static void Main(String[] args)
     {
         //ACTORS
         List<Customer> customers = getCustomers();
-        
+        clerk.setDeliverMen(deliver);
         //Start
         foreach(Customer c in customers){
+            while(clerk.isTaken){
+
+            }
             clerk.Welcome(c);
         }
 
-        Task.Delay(7000).Wait();
+        Task.Delay(20000).Wait();
 
     }
 
@@ -30,22 +33,36 @@
 
         List<Item> list1 = new List<Item>();
         list1.Add(new Pizza(1,EnumTypePizza.Cheese,10));
+        list1.Add(new Pizza(3,EnumTypePizza.Margherita,15));
         list1.Add(new Drink(255,EnumTypeDrink.Cola,5));
 
         List<Item> list2 = new List<Item>();
         list2.Add(new Pizza(2,EnumTypePizza.Vegetarian,15));
         list2.Add(new Drink(300,EnumTypeDrink.Water,5));
 
+        List<Item> list3 = new List<Item>();
+        list3.Add(new Drink(255,EnumTypeDrink.Cola,5));
+
+        List<Item> list4 = new List<Item>();
+        list4.Add(new Drink(255,EnumTypeDrink.Cola,5));
+        list4.Add(new Pizza(2,EnumTypePizza.Vegetarian,15));
+        list4.Add(new Pizza(1,EnumTypePizza.Cheese,10));
+        list4.Add(new Pizza(3,EnumTypePizza.Margherita,15));
+
         Order order1 = new Order(1,DateTime.Now,client1,clerk,cook,list1,EnumTypeStatus.in_preparation);
         Order order2 = new Order(2,DateTime.Now,client2,clerk,cook,list2,EnumTypeStatus.in_preparation);
+        Order order3 = new Order(3,DateTime.Now,client2,clerk,cook,list3,EnumTypeStatus.in_preparation);
+        Order order4 = new Order(4,DateTime.Now,client2,clerk,cook,list4,EnumTypeStatus.in_preparation);
 
         client1.setOrder(order1);
         client2.setOrder(order2);
+        client3.setOrder(order3);
+        client4.setOrder(order4);
 
         customers.Add(client1);
         customers.Add(client2);
-        //customers.Add(client3);
-        //customers.Add(client4);
+        customers.Add(client3);
+        customers.Add(client4);
         return customers;
     }
 }

@@ -7,4 +7,8 @@ public class Drink : Item
         this.volume = volume;
         this.drink = drink;
     }
+
+    public EnumTypeDrink getDrink(){
+        return this.drink;
+    }
 }

@@ -46,5 +46,8 @@ public class Order
         return this.items;
     }
 
+    public void setStatus(EnumTypeStatus e){
+        this.status=e;
+    }
     
 }
